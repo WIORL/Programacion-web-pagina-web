@@ -1,0 +1,44 @@
+:root {
+
+  --logo-color: #2a3b20;
+  --call-to-action-color: #78b156;
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  position: relative;
+  background-color: darkblue;
+  background-image: url("desert.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+nav {
+
+  background-color: black;
+}
+
+.navbar .navbar-brand {
+
+  background-color: var(--logo-color);
+  padding: 10px;
+  border-radius: 7px;
+}
+
+#topbar {
+
+  background-color: rgba(0, 0, 0, 25%);
+}
+
+#main {
+
+  
+}
