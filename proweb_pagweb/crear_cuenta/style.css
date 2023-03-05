@@ -1,49 +1,8 @@
-:root {
-
-  --logo-color: #2a3b20;
-  --call-to-action-color: #78b156;
-}
-
-* {
-
-  margin: 0;
-  padding: 0;
-}
-
 body {
-
-  position: relative;
   background-image: url("desert.jpg");
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-nav {
-
-  background-color: black;
-}
-
-.navbar a {
-
-  background-color: var(--logo-color);
-  padding: 10px;
-  border-radius: 7px;
-}
-
-#topbar button:nth-child(1) {
-  background-color: var(--call-to-action-color);
-  border-color: var(--call-to-action-color);
-}
-
-#topbar {
-
-  background-color: rgba(0, 0, 0, 25%);
 }
 
 #main {
-
   background-color: black;
   width: 90%;
   max-width: 500px;
@@ -53,14 +12,12 @@ nav {
 }
 
 #main h1 {
-
   color: white;
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
 #main input {
-
   padding: 10px;
   width: 90%;
   border-radius: 10px;
@@ -69,14 +26,12 @@ nav {
 }
 
 #main p {
-
   color: white;
   margin-top: 40px;
   margin-bottom: 0;
 }
 
 #main button {
-
   margin-top: 40px;
   margin-bottom: 30px;
   width: 90%;

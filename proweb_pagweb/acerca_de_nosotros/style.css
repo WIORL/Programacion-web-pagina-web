@@ -1,50 +1,12 @@
-
-:root {
-
-  --logo-color: #2a3b20;
-  --call-to-action-color: #78b156;
-}
-
-* {
-
-  margin: 0;
-  padding: 0;
-}
-
 body {
-
-  position: relative;
   background-image: url("factory_smoke.jpg");
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-.navbar a {
-
-  background-color: var(--logo-color);
-  padding: 10px;
-  border-radius: 7px;
-}
-
-nav {
-
-  background-color: black;
-}
-
-#topbar {
-
-  background-color: rgba(0, 0, 0, 25%);
 }
 
 #finally {
-
   margin-bottom: 75px;
 }
 
 #main p {
-
   border-radius: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -54,16 +16,13 @@ nav {
 }
 
 #main p:last-child {
-
   margin-bottom: 500px;
 }
 
 #main h1 {
-
   width: fit-content;
   padding: 20px;
   color: white;
   background-color: rgba(256, 256, 256, 50%);
   border-radius: 20px;
 }
-

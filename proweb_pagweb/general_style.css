@@ -1,11 +1,15 @@
-* {
+:root {
   --logo-color: #2a3b20;
   --call-to-action-color: #78b156;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   position: relative;
-  background-image: url("factory_golden_hour.jpg");
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -24,22 +28,4 @@ nav {
 
 #topbar {
   background-color: rgba(0, 0, 0, 25%);
-}
-
-#main video {
-  border-radius: 25px;
-  max-width: 1000px;
-}
-
-#main p {
-  border-radius: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: rgba(0, 0, 0, 50%);
-  color: white;
-  font-size: 15pt;
-}
-
-#main p:last-child {
-  margin-bottom: 75px;
 }
