@@ -27,13 +27,11 @@ body {
   border: 0;
 }
 
-.navbar .navbar-brand:hover{
-
+.navbar .navbar-brand:hover {
   background-color: var(--logo-hover-color);
 }
 
 .navbar .navbar-brand:active {
-
   background-color: var(--logo-color);
 }
 
@@ -42,21 +40,22 @@ nav {
 }
 
 #topbar {
-  background-color: rgba(0, 0, 0, 25%);
+  background-color: rgba(0, 0, 0, 50%);
 }
 
 #topbar #iniciarSesion {
-
   background-color: var(--call-to-action-color);
   border: 0;
 }
 
 #topbar #iniciarSesion:hover {
-
   background-color: var(--call-to-action-hover-color);
 }
 
 #topbar #iniciarSesion:active {
-
   background-color: var(--call-to-action-color);
+}
+
+#main {
+  margin-bottom: 100px;
 }

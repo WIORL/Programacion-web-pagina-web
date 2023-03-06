@@ -1,3 +1,90 @@
+:root {
+  --like-color: rgb(81, 149, 7);
+  --dislike-color: rgb(157, 13, 13);
+}
+
 body {
   background-image: url("big_ice.jpg");
+}
+
+.publicacion,
+.comentario-escrito {
+  background-color: var(--content-color);
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.comentario-escrito {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.reacciones {
+  display: inline-block;
+}
+
+.like,
+.dislike {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 100%;
+  border: 0;
+  padding: 5px;
+}
+
+.like img,
+.dislike img {
+  width: 20px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.acciones {
+  text-align: center;
+}
+
+.acciones button,
+.publicar {
+  background-color: var(--call-to-action-color);
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+
+.acciones button:hover {
+  background-color: var(--call-to-action-hover-color);
+}
+
+.acciones button:active {
+  background-color: var(--call-to-action-color);
+}
+
+.comentario {
+  margin-top: 15px;
+  border: 0;
+  border-radius: 10px;
+  width: 100%;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+#comentar-div {
+  text-align: right;
+}
+
+.publicar,
+.cancelar {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.publicar:hover {
+  background-color: var(--call-to-action-hover-color);
 }
