@@ -21,8 +21,26 @@ body {
   padding: 15px;
 }
 
+.comentario-escrito h6 {
+  color: var(--call-to-action-color);
+}
+
+.comentario-escrito p {
+  color: white;
+}
+
+.locacion {
+  text-align: right;
+  font-size: 8pt;
+}
+
+.locacion img {
+  width: 18pt;
+}
+
 .reacciones {
   display: inline-block;
+  text-align: center;
 }
 
 .like,

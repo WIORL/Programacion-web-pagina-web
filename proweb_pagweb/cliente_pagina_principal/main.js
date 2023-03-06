@@ -30,19 +30,24 @@ $(".comentar").click(function () {
         <input type="submit" class="cancelar btn btn-outline-light" value="Cancelar">
       </form>
     `);
+    $(".comentario").focus();
     // publicar comentario
     $(".publicar").click(function (e) {
-      comentando = false;
-      console.log($(this).closest(".publicacion").children("p"));
-      console.log($(".comentario").val());
-      $(this).closest(".publicacion").children("p").append(`
-      
-        <div class="comentario-escrito">
-          ${$(".comentario").val()}
-        </div>
-      
-      `);
-      $("#comentar-div").remove();
+      if ($(".comentario").val() === "") {
+        console.log("nope'd");
+      } else {
+        comentando = false;
+        let nombre = "Usuario"; // quitar esto cuando tengamos back-end ;)
+        $(this).closest(".publicacion").children("p").append(`
+        
+          <div class="comentario-escrito">
+            <h6>${nombre}<h6>
+            <p>${$(".comentario").val()}<p>
+          </div>
+        
+        `);
+        $("#comentar-div").remove();
+      }
       e.preventDefault();
     });
     // cancelar comentario
