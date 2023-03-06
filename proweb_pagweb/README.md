@@ -17,7 +17,6 @@ Foro web, su uso es reportar danos ecologicos, ambientales ect.
 
 * agregar tablas de CRUD para:
 
-  > admin CRUD de admins
   > admin CRUD publicaciones
   > admin CRUD usuarios
   > cliente CRUD publicaciones

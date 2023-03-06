@@ -1,4 +1,90 @@
 body {
-  background-color: darkblue;
+  background-color: black;
   background-image: url("factory_smoke.jpg");
+}
+
+#buscador input {
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#crud {
+
+  width: 100%;
+}
+
+#crud th {
+  background-color: var(--logo-color);
+  color: white;
+  padding: 8px;
+}
+
+#crud td {
+  padding: 8px;
+}
+
+#crud td:nth-child(3) {
+  width: 165px;
+}
+
+#crud tr:nth-child(odd) {
+  background-color: #d9d9d9;
+}
+
+#crud tr:nth-child(even) {
+  background-color: white;
+}
+
+tr td button {
+  display: inline-block;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.editar {
+  background-color: #91dbd6;
+}
+
+.editar:hover {
+  background-color: #7cbbb7;
+}
+
+.editar:active {
+
+  background-color: #91dbd6;
+}
+
+.borrar {
+  background-color: #e95252;
+}
+
+.borrar:hover {
+  background-color: #b13e3e;
+}
+
+.borrar:active {
+
+  background-color: #e95252;
+}
+
+#agregar {
+  font-size: 16pt;
+  float: right;
+  margin-top: -35px;
+  background-color: var(--call-to-action-color);
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 0;
+}
+
+#agregar:hover {
+  background-color: var(--call-to-action-hover-color);
+}
+
+#agregar:active {
+  background-color: var(--call-to-action-color);
 }
