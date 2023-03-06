@@ -1,6 +1,10 @@
 :root {
   --logo-color: #2a3b20;
+  --logo-hover-color: #445f34;
   --call-to-action-color: #78b156;
+  --call-to-action-hover-color: #659449;
+  --title-color: rgba(255, 255, 255, 25%);
+  --content-color: rgba(0, 0, 0, 50%);
 }
 
 * {
@@ -20,6 +24,17 @@ body {
   background-color: var(--logo-color);
   padding: 10px;
   border-radius: 7px;
+  border: 0;
+}
+
+.navbar .navbar-brand:hover{
+
+  background-color: var(--logo-hover-color);
+}
+
+.navbar .navbar-brand:active {
+
+  background-color: var(--logo-color);
 }
 
 nav {
@@ -28,4 +43,20 @@ nav {
 
 #topbar {
   background-color: rgba(0, 0, 0, 25%);
+}
+
+#topbar #iniciarSesion {
+
+  background-color: var(--call-to-action-color);
+  border: 0;
+}
+
+#topbar #iniciarSesion:hover {
+
+  background-color: var(--call-to-action-hover-color);
+}
+
+#topbar #iniciarSesion:active {
+
+  background-color: var(--call-to-action-color);
 }

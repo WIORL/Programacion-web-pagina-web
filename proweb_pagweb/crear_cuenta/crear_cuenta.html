@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheets -->
+    <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous" />
+    <!-- general -->
     <link rel="stylesheet" href="../general_style.css" />
+    <!-- local -->
     <link rel="stylesheet" href="style.css" />
     <title>Crear cuenta</title>
   </head>
@@ -17,7 +21,9 @@
     <!-- topbar -->
     <nav id="topbar" class="navbar sticky-top navbar-expand-sm navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">NOMBRE DE COMPANIA</a>
+        <a class="navbar-brand" href="../splash/splash.html"
+          >NOMBRE DE COMPANIA</a
+        >
         <button
           class="navbar-toggler border-light"
           type="button"
@@ -51,20 +57,32 @@
     <!-- main -->
     <div id="main" class="container mt-5">
       <center>
-        <h1>Crear cuenta?</h1>
-        <input type="text" placeholder="e-mail" /> <br />
-        <input type="text" placeholder="Nombre" /> <br />
-        <input type="password" placeholder="Contrasena" /> <br />
-        <p>Ya tienes cuenta?</p>
-        <a href="../iniciar_sesion/iniciar_sesion.html">Inicia sesion</a> <br />
-        <button class="btn btn-success">Crear cuenta</button>
+        <form action="../cliente_pagina_principal/cliente_pagina_principal.html">
+          <h1>Crear cuenta?</h1>
+          <input type="email" placeholder="e-mail" /> <br />
+          <input type="text" placeholder="Nombre" /> <br />
+          <input type="password" placeholder="Contrasena" /> <br />
+          <p>Ya tienes cuenta?</p>
+          <a href="../iniciar_sesion/iniciar_sesion.html">Inicia sesion</a> <br />
+          <button class="btn btn-success" type="submit">Crear cuenta</button>
+        </form>
+        
       </center>
     </div>
 
     <!-- scripts -->
+    <!-- bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <!-- local -->
+    <script src="main.js"></script>
   </body>
 </html>

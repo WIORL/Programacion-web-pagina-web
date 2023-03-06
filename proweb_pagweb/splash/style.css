@@ -1,29 +1,6 @@
-* {
-  --logo-color: #2a3b20;
-  --call-to-action-color: #78b156;
-}
 
 body {
-  position: relative;
   background-image: url("factory_golden_hour.jpg");
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-.navbar .navbar-brand {
-  background-color: var(--logo-color);
-  padding: 10px;
-  border-radius: 7px;
-}
-
-nav {
-  background-color: black;
-}
-
-#topbar {
-  background-color: rgba(0, 0, 0, 25%);
 }
 
 #main video {
@@ -35,7 +12,7 @@ nav {
   border-radius: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgba(0, 0, 0, 50%);
+  background-color: var(--content-color);
   color: white;
   font-size: 15pt;
 }

@@ -40,3 +40,13 @@ body {
   background-color: var(--call-to-action-color);
   border-color: var(--call-to-action-color);
 }
+
+#main button:hover {
+
+  background-color: var(--call-to-action-hover-color);
+}
+
+#main button:active {
+
+  background-color: var(--call-to-action-color);
+}
