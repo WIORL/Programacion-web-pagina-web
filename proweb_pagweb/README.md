@@ -31,3 +31,6 @@ Foro web, su uso es reportar danos ecologicos, ambientales ect.
 * pantallas completadas:
   > iniciar sesion
   > crear cuenta
+
+* aspectos tecnicos:
+  > tecnologias con las que se desarrollo su pagina web 
