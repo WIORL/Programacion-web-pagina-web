@@ -10,7 +10,6 @@ body {
 }
 
 #crud {
-
   width: 100%;
 }
 
@@ -52,7 +51,6 @@ tr td button {
 }
 
 .editar:active {
-
   background-color: #91dbd6;
 }
 
@@ -65,7 +63,6 @@ tr td button {
 }
 
 .borrar:active {
-
   background-color: #e95252;
 }
 
@@ -87,4 +84,20 @@ tr td button {
 
 #agregar:active {
   background-color: var(--call-to-action-color);
+}
+
+#editar-aceptar-btn {
+  color: white;
+  background-color: var(--call-to-action-color);
+}
+
+#editar-cancelar-btn {
+  color: white;
+  background-color: grey;
+}
+
+.editar-fields {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
 }

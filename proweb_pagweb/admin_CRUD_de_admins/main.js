@@ -6,11 +6,9 @@ $("#buscar-btn").click(function (e) {
 // crear
 let agregando = false;
 $("#agregar").click(function () {
-
-  if(!agregando) {
-
+  if (!agregando) {
     agregando = true;
-    console.log($(this))
+    console.log($(this));
     $(this).after(`
     
       <div id="agregando">
@@ -22,11 +20,10 @@ $("#agregar").click(function () {
         </form>
       </div>
     
-    `)
+    `);
 
     $("#agregar-btn").click(function (e) {
-
-      console.log($("#crud").children().children().first())
+      console.log($("#crud").children().children().first());
       $("#crud").children().children().first().after(`
       
         <tr>
@@ -38,23 +35,21 @@ $("#agregar").click(function () {
           </td>
         </tr>
       
-      `)
+      `);
 
-      console.log("agregado!")
-      $("#agregando").remove()
+      console.log("agregado!");
+      $("#agregando").remove();
       agregando = false;
-      e.preventDefault()
-    })
+      e.preventDefault();
+    });
     $("#cancelar-btn").click(function (e) {
-
-      console.log("cancelado")
-      $("#agregando").remove()
+      console.log("cancelado");
+      $("#agregando").remove();
       agregando = false;
-      e.preventDefault()
-    })
+      e.preventDefault();
+    });
   }
-  
-})
+});
 
 // editar
 let editando = false;
@@ -66,16 +61,18 @@ $(".editar").click(function () {
     $(this).parent().parent().closest("tr").after(`
 
       <tr id="editar">
-        <td>
-          <input id="email-field" type="text" placeholder="email">
-        </td>
-        <td>
-          <input id="contrasena-field" type="text" placeholder="contrasena">
-        </td>
-        <td>
-          <button type="submit" id="editar-aceptar-btn">ok</button>
-          <button id="editar-cancelar-btn">cancelar</button>
-        </td>
+        <form>
+          <td>
+            <input class="editar-fields" id="email-field" type="text" placeholder="email">
+          </td>
+          <td>
+            <input class="editar-fields" id="contrasena-field" type="text" placeholder="contrasena">
+          </td>
+          <td>
+            <button type="submit" id="editar-aceptar-btn">ok</button>
+            <button id="editar-cancelar-btn">cancelar</button>
+          </td>
+        </form>
       </tr>
 
     `);
@@ -101,7 +98,6 @@ $(".editar").click(function () {
 
 // borrar
 $(".borrar").click(function () {
-
-  console.log($(this).parent().parent())
-  $(this).parent().parent().remove()
-})
+  console.log($(this).parent().parent());
+  $(this).parent().parent().remove();
+});
