@@ -103,6 +103,33 @@ h1 {
   padding: 8px;
 }
 
+#buscador-div label {
+  margin-bottom: 5px;
+  font-size: 14pt;
+}
+
 .publicar:hover {
   background-color: var(--call-to-action-hover-color);
+}
+
+#buscador-div {
+  margin-bottom: 10px;
+}
+
+#buscar-field,
+#buscar-btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  flex: 1;
+  display: inline-block;
+}
+
+#buscar-field {
+  width: 80%;
+  max-width: 700px;
+}
+
+#buscar-btn {
+  background-color: var(--call-to-action-color);
 }
