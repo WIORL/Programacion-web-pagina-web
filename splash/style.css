@@ -1,0 +1,22 @@
+
+body {
+  background-image: url("factory_golden_hour.jpg");
+}
+
+#main video {
+  border-radius: 25px;
+  max-width: 1000px;
+}
+
+#main p {
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--content-color);
+  color: white;
+  font-size: 15pt;
+}
+
+#main p:last-child {
+  margin-bottom: 75px;
+}

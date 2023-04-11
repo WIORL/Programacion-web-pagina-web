@@ -1,0 +1,28 @@
+body {
+  background-image: url("factory_smoke.jpg");
+}
+
+#finally {
+  margin-bottom: 75px;
+}
+
+#main p {
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 50%);
+  color: white;
+  font-size: 15pt;
+}
+
+#main p:last-child {
+  margin-bottom: 500px;
+}
+
+#main h1 {
+  width: fit-content;
+  padding: 20px;
+  color: white;
+  background-color: rgba(256, 256, 256, 50%);
+  border-radius: 20px;
+}

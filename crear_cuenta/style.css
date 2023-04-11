@@ -1,0 +1,52 @@
+body {
+  background-image: url("desert.jpg");
+}
+
+#main {
+  background-color: black;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#main h1 {
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#main input {
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#main p {
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+#main button {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 90%;
+  height: 70px;
+  border-radius: 10px;
+  background-color: var(--call-to-action-color);
+  border-color: var(--call-to-action-color);
+}
+
+#main button:hover {
+
+  background-color: var(--call-to-action-hover-color);
+}
+
+#main button:active {
+
+  background-color: var(--call-to-action-color);
+}
